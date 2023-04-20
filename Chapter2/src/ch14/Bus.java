@@ -1,0 +1,21 @@
+package ch14;
+
+public class Bus {
+	int busNum;
+	int count;
+	int money;
+	
+	
+	public Bus(int busNum) {
+		this.busNum = busNum;
+	}
+	
+	public void take(int money) {
+		this.money += money;
+		count++;
+	}
+	
+	public void showBusInfo() {
+		System.out.println(busNum + "번의 승객 수는 " + count + "명 이며 " + money + "원을 벌었습니다.");
+	}
+}

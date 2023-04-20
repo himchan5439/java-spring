@@ -1,0 +1,7 @@
+package ch4;
+
+public class StudentTest {
+	public static void main(String[] args) {
+		Student test = new Student();
+	}
+}

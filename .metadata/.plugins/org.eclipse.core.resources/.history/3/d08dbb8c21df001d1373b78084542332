@@ -1,0 +1,12 @@
+package ch09;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student studentLee = new Student(100, "Lee");
+
+		Student studentKim = new Student(200, "Kim");
+	}
+
+}

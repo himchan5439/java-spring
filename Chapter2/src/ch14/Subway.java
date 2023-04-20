@@ -1,0 +1,21 @@
+package ch14;
+
+public class Subway {
+	int subwayNum;
+	int count;
+	int money;
+	
+	
+	public Subway(int subwayNum) {
+		this.subwayNum = subwayNum;
+	}
+	
+	public void take(int money) {
+		this.money += money;
+		count++;
+	}
+	
+	public void showSubwayInfo() {
+		System.out.println(subwayNum + "번의 승객 수는 " + count + "명 이며 " + money + "원을 벌었습니다.");
+	}
+}
